@@ -12,7 +12,7 @@
         <tr>
             <td>
                 <button onclick="login()">登入</button>
-                <button onclick="reset()">清除</button>
+                <button onclick="$('#acc,#pw').val('')">清除</button>
             </td>
             <td class="r">
                 <a href="?do=forgot">忘記密碼</a>

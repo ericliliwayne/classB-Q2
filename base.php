@@ -125,6 +125,8 @@
     // new DB($table);
     $Total = new DB('total');//$Total是物件
     $User = new DB('user');
+    $News = new DB('news');
+    $Que = new DB('que');
     
     if(!isset($_SESSION['total'])){
         $chkDate = $Total->math('count','id',['date'=>date("Y-m-d")]);
